@@ -1,4 +1,4 @@
-FROM java:7
+FROM ubuntu:14.04
 COPY HelloWorld.java .
 RUN javac HelloWorld.java
 
